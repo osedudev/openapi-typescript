@@ -31,9 +31,11 @@
     "format": "biome format src --write",
     "lint": "pnpm run lint:js && pnpm run lint:ts",
     "lint:js": "biome check src",
-    "lint:ts": "tsc --noEmit"
+    "lint:ts": "tsc --noEmit",
+    "prepare": "pnpm run build"
   },
   "devDependencies": {
-    "typescript": "5.9.3"
+    "typescript": "5.9.3",
+    "unbuild": "3.6.1"
   }
 }
