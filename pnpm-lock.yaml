@@ -289,9 +289,6 @@ importers:
       typescript:
         specifier: 5.9.3
         version: 5.9.3
-      unbuild:
-        specifier: 3.6.1
-        version: 3.6.1(typescript@5.9.3)(vue-tsc@2.2.12(typescript@5.9.3))(vue@3.5.27(typescript@5.9.3))
 
 packages:
 
